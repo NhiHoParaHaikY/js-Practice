@@ -742,11 +742,385 @@
 //   console.log("");
 // }
 
-let n = 7;
-for (let row = n; row >= 0; row--) {
-  for (let col = 0; col <= row; col++) {
-    process.stdout.write('😂 ');
+// let n = 7;
+// for (let row = 1; row <= n; row++) {
+//   for (let col = 1; col <= row; col++) {
+//     process.stdout.write(" " + col);
+//   }
+//   console.log("");
+// }
 
-  }
-  console.log("");
+// let n = 7;
+// for (let row = 1; row <= n; row++) {
+//   for (let col = 1; col <= row; col++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log("");
+// }
+
+// for (let row = n - 1; row >= 1; row--) {
+//   for (let col = 1; col <= row; col++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log("");
+// }
+
+
+// MAIN EXERCISES
+
+//                                                           Ex 1 Normal Stars in Lines
+
+// * * * * * * *
+// * * * * * * *
+// * * * * * * *
+// * * * * * * *
+// * * * * * * *
+// * * * * * * *
+// * * * * * * *
+
+// let n = 7;
+// for (let row = 1; row <= n; row++) {
+//   for (let col = 1; col <= n; col++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log("");
+// }
+
+
+//                                                           Ex 2 Right Angled Triangle Pattern
+
+// *
+// * *
+// * * *
+// * * * *
+// * * * * *
+// * * * * * *
+// * * * * * * *
+
+// let n = 7;
+// for (let row = 1; row <= n; row++) {
+//   for (let col = 1; col <= row; col++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log("");
+// }
+
+
+//                                                            Ex 3 Reverse Right Angled Triangle Pattern
+
+// * * * * * * *
+// * * * * * *
+// * * * * *
+// * * * *
+// * * *
+// * *
+// *
+
+
+// let n = 7;
+// for (let row = n; row >= 1; row--) {
+//   for (let col = 1; col <= row; col++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log("");
+// }
+
+
+//                                                            Ex 4 Right Angled + Reverse Right Angled Triangle Mix
+
+// *
+// * *
+// * * *
+// * * * *
+// * * * * *
+// * * * * * *
+// * * * * * * *
+// * * * * * *
+// * * * * *
+// * * * *
+// * * *
+// * *
+// *
+
+// let n = 7;
+// for (let row = 1; row <= n; row++) {
+//   for (let col = 1; col <= row; col++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log("");
+// }
+// for (let row = n - 1; row >= 1; row--) {
+//   for (let col = 1; col <= row; col++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log("");
+// }
+
+
+//                                                            Ex 5 Instead stars using numbers
+
+//  1
+//  1 2
+//  1 2 3
+//  1 2 3 4
+//  1 2 3 4 5
+//  1 2 3 4 5 6
+//  1 2 3 4 5 6 7
+
+// let n = 7;
+// for (let row = 1; row <= n; row++) {
+//   for (let col = 1; col <= row; col++) {
+//     process.stdout.write(" " + col);
+//   }
+//   console.log("");
+// }
+
+//                                                            Ex 6 Left Angled Triangle
+
+//             *
+//           * *
+//         * * *
+//       * * * *
+//     * * * * *
+//   * * * * * *
+// * * * * * * *
+
+// let n = 7;
+// for (let row = 1; row <= n; row++) {
+//   for (let space = 1; space <= n - row; space++) {
+//     process.stdout.write("  ");
+//   }
+//   for (let col = 1; col <= row; col++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log("");
+// }
+
+
+//                                                            Ex 7 Pyramid Pattern
+
+// let n = 7;
+// for (let row = 1; row <= n; row++) {
+//   for (let space = 1; space <= n - row; space++) {
+//     process.stdout.write(" ");
+//   }
+//   for (let col = 1; col <= row; col++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log("");
+// }
+
+
+//                                                            Ex  8 Left Angled + Reverse Left Angled Triangle Mix
+
+//             * 
+//           * *
+//         * * *
+//       * * * *
+//     * * * * *
+//   * * * * * *
+// * * * * * * *
+//   * * * * * *
+//     * * * * *
+//       * * * *
+//         * * *
+//           * * 
+//             *
+
+
+// let n = 7;
+// for (let row = 1; row <= n; row++) {
+//   for (let space = 1; space <= n - row; space++) {
+//     process.stdout.write("  ");
+//   }
+//   for (let col = 1; col <= row; col++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log("");
+// }
+// for (let row = n - 1; row >= 1; row--) {
+//   for (let space = 1; space <= n - row; space++) {
+//     process.stdout.write("  ");
+//   }
+//   for (let col = 1; col <= row; col++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log("");
+// }
+
+
+//                                                            Ex 9 Daimond Pattern
+
+//       * 
+//      * *
+//     * * *
+//    * * * *
+//   * * * * *
+//  * * * * * *
+// * * * * * * *
+//  * * * * * *
+//   * * * * *
+//    * * * *
+//     * * *
+//      * *
+//       *
+
+// let n = 7;
+// for (let row = 1; row <= n; row++) {
+//     for (let space = 1; space <= n - row; space++) {
+//         process.stdout.write(" ");
+//     }
+//     for (let col = 1; col <= row; col++) {
+//         process.stdout.write("* ");
+//     }
+//     console.log("");
+// }
+// for (let row = n - 1; row >= 1; row--) {
+//     for (let space = 1; space <= n - row; space++) {
+//         process.stdout.write(" ");
+//     }
+//     for (let col = 1; col <= row; col++) {
+//         process.stdout.write("* ");
+//     }
+//     console.log("");
+// }
+
+
+//                                                            Ex 10  Sand Timer
+
+
+//  * * * * * * 
+//   * * * * *
+//    * * * *
+//     * * *
+//      * *
+//       *
+//       *
+//      * *
+//     * * *
+//    * * * *
+//   * * * * *
+//  * * * * * *
+// * * * * * * *
+
+// let n = 7;
+
+// for (let row = n - 1; row >= 1; row--) {
+//   for (let space = 1; space <= n - row; space++) {
+//     process.stdout.write(" ");
+//   }
+//   for (let col = 1; col <= row; col++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log("");
+// }
+// for (let row = 1; row <= n; row++) {
+//   for (let space = 1; space <= n - row; space++) {
+//     process.stdout.write(" ");
+//   }
+//   for (let col = 1; col <= row; col++) {
+//     process.stdout.write("* ");
+//   }
+//   console.log("");
+// }
+
+
+//                                                            Ex 11  Half daimond
+
+//       * 
+//      * *
+//     * * *
+//    * * * *
+//   * * * * *
+//  * * * * * *
+// * * * * * * *
+
+// let n = 7;
+// for (let row = 1; row <= n; row++) {
+//     for (let space = 1; space <= n - row; space++) {
+//         process.stdout.write(" ");
+//     }
+//     for (let col = 1; col <= row; col++) {
+//         process.stdout.write("* ");
+//     }
+//     console.log("");
+// }
+
+
+//                                                            Ex12 Reverse Half Daimond
+
+//  * * * * * * 
+//   * * * * *
+//    * * * *
+//     * * *
+//      * *
+//       *
+
+// let n = 7;
+
+// for (let row = n - 1; row >= 1; row--) {
+//     for (let space = 1; space <= n - row; space++) {
+//         process.stdout.write(" ");
+//     }
+//     for (let col = 1; col <= row; col++) {
+//         process.stdout.write("* ");
+//     }
+//     console.log("");
+// }
+
+
+//                                                            Ex 13 Empty Daimond
+
+
+// let n = 7;
+// for (let row = 1; row <= n; row++) {
+//     for (let space = 1; space <= n - row; space++) {
+//         process.stdout.write(" ");
+//     }
+//     for (let col = 1; col <= row; col++) {
+//         process.stdout.write("* ");
+//     }
+//     console.log("");
+// }
+// for (let row = n - 1; row >= 1; row--) {
+//     for (let space = 1; space <= n - row; space++) {
+//         process.stdout.write(" ");
+//     }
+//     for (let col = 1; col <= row; col++) {
+//         process.stdout.write("* ");
+//     }
+//     console.log("");
+// }
+
+let n = 7;
+for (let row = 1; row <= n; row++) {
+    for (let space = 1; space <= n - row; space++) {
+        process.stdout.write(" ");
+    }
+    for (let col = 1; col <= row; col++) {
+        if (col === 1 || col === row) {
+            process.stdout.write("* ");
+        } else {
+            process.stdout.write("  ");
+        }
+    }
+    console.log();
+}
+
+for (let row = n - 1; row >= 1; row--) {
+    // Spaces
+    for (let space = 1; space <= n - row; space++) {
+        process.stdout.write(" ");
+    }
+
+
+    for (let col = 1; col <= row; col++) {
+        if (col === 1 || col === row) {
+            process.stdout.write("* ");
+        } else {
+            process.stdout.write("  ");
+        }
+    }
+
+    console.log();
 }
