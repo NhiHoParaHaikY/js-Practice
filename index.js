@@ -1092,35 +1092,79 @@
 //     console.log("");
 // }
 
-let n = 7;
-for (let row = 1; row <= n; row++) {
-    for (let space = 1; space <= n - row; space++) {
-        process.stdout.write(" ");
-    }
-    for (let col = 1; col <= row; col++) {
-        if (col === 1 || col === row) {
-            process.stdout.write("* ");
-        } else {
-            process.stdout.write("  ");
-        }
-    }
-    console.log();
+// let n = 7;
+// for (let row = 1; row <= n; row++) {
+//     for (let space = 1; space <= n - row; space++) {
+//         process.stdout.write(" ");
+//     }
+//     for (let col = 1; col <= row; col++) {
+//         if (col === 1 || col === row) {
+//             process.stdout.write("* ");
+//         } else {
+//             process.stdout.write("  ");
+//         }
+//     }
+//     console.log();
+// }
+
+// for (let row = n - 1; row >= 1; row--) {
+//     // Spaces
+//     for (let space = 1; space <= n - row; space++) {
+//         process.stdout.write(" ");
+//     }
+
+
+//     for (let col = 1; col <= row; col++) {
+//         if (col === 1 || col === row) {
+//             process.stdout.write("* ");
+//         } else {
+//             process.stdout.write("  ");
+//         }
+//     }
+
+//     console.log();
+// }
+
+
+//                                                            FUNCTIONS
+
+// Syntax ....here function is the keyword and sayMyName is the name of the function...
+function sayMyName() {
+    console.log("H");
+    console.log("I");
+    console.log("G");
+    console.log("H");
 }
 
-for (let row = n - 1; row >= 1; row--) {
-    // Spaces
-    for (let space = 1; space <= n - row; space++) {
-        process.stdout.write(" ");
-    }
+// Here we have a Reference of the function which is sayMyName and the () brackets are the Execution 
+
+// sayMyName()
 
 
-    for (let col = 1; col <= row; col++) {
-        if (col === 1 || col === row) {
-            process.stdout.write("* ");
-        } else {
-            process.stdout.write("  ");
-        }
-    }
+// Basic Maths
 
-    console.log();
+function addTwoNumbers(number1, number2) {
+    let result = number1 + number2
+    return result
+
 }
+const result = addTwoNumbers(3, 5)
+
+// console.log("Result:", result);
+
+function loginUserMessage(username) {
+    return `${username} just logged in `
+}
+// console.log(loginUserMessage("Shubham"));
+
+function myName(username) {
+    return `My name is ${username}`
+}
+// console.log(myName("Shubham"));
+
+function addTwoNumbers(number1, number2) {
+    let result = number1 + number2
+    console.log("The answer is ");
+    return result
+}
+console.log(23563 + 5345);
