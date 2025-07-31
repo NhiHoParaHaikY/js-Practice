@@ -1129,42 +1129,89 @@
 //                                                            FUNCTIONS
 
 // Syntax ....here function is the keyword and sayMyName is the name of the function...
-function sayMyName() {
-    console.log("H");
-    console.log("I");
-    console.log("G");
-    console.log("H");
-}
+// function sayMyName() {
+//     console.log("H");
+//     console.log("I");
+//     console.log("G");
+//     console.log("H");
+// }
 
-// Here we have a Reference of the function which is sayMyName and the () brackets are the Execution 
+// // Here we have a Reference of the function which is sayMyName and the () brackets are the Execution 
 
-// sayMyName()
+// // sayMyName()
 
 
-// Basic Maths
+// // Basic Maths
 
-function addTwoNumbers(number1, number2) {
-    let result = number1 + number2
+// function addTwoNumbers(number1, number2) {
+//     let result = number1 + number2
+//     return result
+
+// }
+// const result = addTwoNumbers(3, 5)
+
+// // console.log("Result:", result);
+
+// function loginUserMessage(username) {
+//     return `${username} just logged in `
+// }
+// // console.log(loginUserMessage("Shubham"));
+
+// function myName(username) {
+//     return `My name is ${username}`
+// }
+// // console.log(myName("Shubham"));
+
+// function addTwoNumbers(number1, number2) {
+//     let result = number1 + number2
+//     // console.log("The answer is ");
+//     return result
+// }
+// // 
+
+// // singleton
+
+// // Object.create
+// // object literals
+// const mySym = Symbol("key1")
+// const jsUser = {
+//     name: "Shubham",
+//     "full name": "Shubham Pandey",
+//     [mySym]: "mykey1",
+//     age: 24,
+//     location: "Mumbai",
+//     email: "shubhampan16@gmail.com",
+//     isLoggedIn: false,
+//     lastLoginDays: ["Monday", "Saturday"]
+// }
+// // console.log(jsUser.email);
+// // console.log(jsUser["email"]);
+// // console.log(jsUser["full name"]);
+// // console.log(jsUser[mySym]);
+
+// jsUser.greeting = function () {
+//     // console.log("Hello JS user");
+// }
+// jsUser.greetingTwo = function () {
+//     // console.log(`Hello JS user ${this.name}`);
+// }
+
+// // console.log(jsUser.greeting());
+// // console.log(jsUser.greetingTwo());
+
+//                                                           31/07/2025
+
+// function breakingBad() {
+//     console.log("White Walter and Jessi Pinkman")
+// }
+// breakingBad()
+
+
+function addThreeNumbers(number1, number2, number3) {
+
+    let result = number1 + number2 + number3
+    console.log("hahahaha ")
     return result
-
 }
-const result = addTwoNumbers(3, 5)
-
-// console.log("Result:", result);
-
-function loginUserMessage(username) {
-    return `${username} just logged in `
-}
-// console.log(loginUserMessage("Shubham"));
-
-function myName(username) {
-    return `My name is ${username}`
-}
-// console.log(myName("Shubham"));
-
-function addTwoNumbers(number1, number2) {
-    let result = number1 + number2
-    console.log("The answer is ");
-    return result
-}
-console.log(23563 + 5345);
+const result = addThreeNumbers(456, 456, 456)
+console.log("Result is ", result);
