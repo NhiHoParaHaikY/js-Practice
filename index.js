@@ -913,7 +913,7 @@
 
 //                                                            Ex  8 Left Angled + Reverse Left Angled Triangle Mix
 
-//             * 
+//             *
 //           * *
 //         * * *
 //       * * * *
@@ -924,7 +924,7 @@
 //     * * * * *
 //       * * * *
 //         * * *
-//           * * 
+//           * *
 //             *
 
 
@@ -951,7 +951,7 @@
 
 //                                                            Ex 9 Daimond Pattern
 
-//       * 
+//       *
 //      * *
 //     * * *
 //    * * * *
@@ -989,7 +989,7 @@
 //                                                            Ex 10  Sand Timer
 
 
-//  * * * * * * 
+//  * * * * * *
 //   * * * * *
 //    * * * *
 //     * * *
@@ -1027,7 +1027,7 @@
 
 //                                                            Ex 11  Half daimond
 
-//       * 
+//       *
 //      * *
 //     * * *
 //    * * * *
@@ -1049,7 +1049,7 @@
 
 //                                                            Ex12 Reverse Half Daimond
 
-//  * * * * * * 
+//  * * * * * *
 //   * * * * *
 //    * * * *
 //     * * *
@@ -1136,7 +1136,7 @@
 //     console.log("H");
 // }
 
-// // Here we have a Reference of the function which is sayMyName and the () brackets are the Execution 
+// // Here we have a Reference of the function which is sayMyName and the () brackets are the Execution
 
 // // sayMyName()
 
@@ -1167,7 +1167,7 @@
 //     // console.log("The answer is ");
 //     return result
 // }
-// // 
+// //
 
 // // singleton
 
@@ -1207,11 +1207,118 @@
 // breakingBad()
 
 
-function addThreeNumbers(number1, number2, number3) {
+// function addThreeNumbers(number1, number2, number3) {
 
-    let result = number1 + number2 + number3
-    console.log("hahahaha ")
-    return result
-}
-const result = addThreeNumbers(456, 456, 456)
-console.log("Result is ", result);
+//     let result = number1 + number2 + number3
+//     console.log("hahahaha ")
+//     return result
+// }
+// const result = addThreeNumbers(456, 456, 456)
+// console.log("Result is ", result);
+
+
+
+// Ex 1 First Function
+
+// function sayHello() {
+//     console.log("Hello World");
+// }
+// sayHello();
+
+
+// Ex 2 Funtion with Parameters
+
+// function greetPerson(name) {
+//     console.log("Hello " + name + "!");
+// }
+// greetPerson("Shubham");
+
+
+// Ex 3 Return Values
+
+// function addTwoNumbers(number1, number2) {
+//     return number1 + number2;
+
+// }
+// console.log(addTwoNumbers(5, 3));
+// console.log(addTwoNumbers(10, 7));
+
+
+// Ex 4 Simple Calculator
+
+// function basicMath(a, b) {
+//     return a / b;
+// }
+// console.log(basicMath(15, 3));
+
+//Level 2     Functions with Logic
+
+// Ex 5   Age Checker
+
+// function canVote(age) {
+//     return age >= 18;
+// }
+// console.log(canVote(20));
+// console.log(canVote(16));
+
+
+// Ex 6 Even or Odd
+
+// function isEven(number) {
+//     if (number % 2 === 0) {
+//         return true
+//     } else {
+//         return false
+//     }
+// }
+// console.log(isEven(6));
+// console.log(isEven(9));
+
+
+// Ex 7 Grade Calculator
+
+// function getGrade(score) {
+//     if (score >= 90 && score <= 100) {
+//         return "A";
+//     } else if (score >= 80 && score <= 89) {
+//         return "B";
+//     } else if (score >= 70 && score <= 79) {
+//         return "C";
+//     } else if (score >= 60 && score <= 69) {
+//         return "D";
+//     } else {
+//         return "F";
+//     }
+// }
+// console.log(getGrade(95));
+// console.log(getGrade(73));
+// console.log(getGrade(45));
+
+// Level 3 Functions with Arrays
+
+// Ex 8 Array Length
+
+
+// function getArrayLength(arr) {
+//     return arr.length;
+// }
+// let fruits = ["Apple", "Banana", "Kiwi", "Orange"];
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9];
+// console.log(getArrayLength(fruits));
+// console.log(getArrayLength(numbers));
+
+
+// Ex 9 First and Last
+
+// function getFirst(array) {
+//     return array[0];
+// }
+// function getLast(array) {
+//     return array[array.length - 1];
+// }
+// let colors = ["red", "green", "yellow", "blue"];
+// console.log(getFirst(colors));
+// console.log(getLast(colors));
+
+// Ex 10 Array Sum
+
