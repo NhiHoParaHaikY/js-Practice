@@ -5,82 +5,82 @@
 // let age = 24;
 // console.log(age);
 
-//ex 3
+// ex 3
 
 // let isStudent = false;
 // console.log(isStudent);
 
-//ex4
+// ex4
 
 // let x = 30,
 //   y = 40,
 //   z = 50;
 // console.log(x, y, z);
 
-//ex5
+// ex5
 
 // let favouriteColor;
 // favouriteColor = "Blue";
 // console.log(favouriteColor);
 
-//ex6
+// ex6
 
 // let temperature = 29.85;
 // console.log(temperature);
 
-//ex7
+// ex7
 
 // let message = "";
 // console.log(message);
 
-//ex8
+// ex8
 
 // const count = 0;
 // console.log(count);
 
-//ex9
+// ex9
 
 // const isComplete = false;
 // console.log(isComplete);
 
-//ex10
+// ex10
 
 // const price = 99.99;
 // console.log("The cost is " + price);
 
-//ex11
+// ex11
 
 // let fullName = "Shubham Pandey";
 // let age = 24;
 // let isStudent = false;
 // console.log(typeof fullName);
 
-//ex12
+// ex12
 
 // let mystery = 123;
 // console.log(typeof mystery);
 
-//ex13
+// ex13
 
 // let nothing;
 // console.log(nothing);
 
-//ex14
+// ex14
 
 // let result = 10 + 5;
 // console.log(typeof result);
 
-//ex15
+// ex15
 
 // let greeting = "Hello" + 25;
 // console.log(typeof greeting);
 
-//ex16
+// ex16
 
 // let isActive = 1 > 0;
 // console.log(typeof isActive);
 
-//ex17
+// ex17
 
 // let num1 = 42;
 // let num2 = 3.14;
@@ -89,27 +89,27 @@
 // let bool1 = true;
 // console.log(typeof num1, typeof num2, typeof str1, typeof str2, typeof bool1);
 
-//ex18
+// ex18
 
 // let mixed = "5" + 3;
 // console.log(typeof mixed, mixed);
 
-//ex19
+// ex19
 
 // let calculation = "19" - 5;
 // console.log(typeof calculation, calculation);
 
-//ex20
+// ex20
 
 // let weird = false / 1;
 // console.log(typeof weird, weird);
 
-//ex21
+// ex21
 
 // let broom = null;
 // console.log(typeof broom);
 
-//ex22
+// ex22
 
 // let floor = 0;
 // let green = "0";
@@ -117,22 +117,22 @@
 // let wheel = "false";
 // console.log(typeof floor, typeof green, typeof great, typeof wheel);
 
-//ex23
+// ex23
 
 // let giggle = "";
 // console.log(typeof giggle);
 
-//ex24
+// ex24
 
 // let infinity = 1 / 0;
 // console.log(typeof infinity, infinity);
 
-//ex25
+// ex25
 
 // let notANumber = "hello" * 2;
 // console.log(typeof notANumber, notANumber);
 
-//ex26
+// ex26
 
 // let counter = 0;
 // counter = counter + 1;
@@ -140,101 +140,101 @@
 // counter = counter + 1;
 // console.log(counter);
 
-//27
+// 27
 
 // var status = "loading";
 // status = "complete";
 // console.log(status);
 
-//28
+// 28
 
 // var score = 100;
 // score = score - 25;
 // console.log(score);
 
-//29
+// 29
 
 // var userName = "Guest";
 // userName = "Admin";
 // console.log(userName);
 
-//30
+// 30
 
 // var isLockedIn = false;
 // isLockedIn = true;
 // console.log(isLockedIn);
 
-//31
+// 31
 
 // var balance = 1000;
 // balance = balance + 250;
 // balance = balance - 75;
 // console.log(balance);
 
-//32
+// 32
 
 // var level = 1;
 // level = level * 2;
 // level = level + 3;
 // console.log(level);
 
-//33
+// 33
 
 // let text = "Hello";
 // text = text + " World";
 // console.log(text);
 
-//34
+// 34
 
 // let multiplier = 2;
 // multiplier = multiplier * 2;
 // console.log(multiplier);
 
-//35
+// 35
 
 // let inventory = 50;
 // inventory = inventory - 15;
 // inventory = inventory + 8;
 // console.log(inventory);
 
-//36
+// 36
 
 // let discount = 0.1;
 // discount = discount + 0.1;
 // console.log(discount);
 
-//37
+// 37
 
 // let book = 42;
 // book = "42";
 // book = true;
 // console.log(book);
 
-//38
+// 38
 
 // let control = 68;
 // var control = 68;
 // const control = 68;
 
-//39
+// 39
 
 // const pi = 3.14159;
 // pi = "string";
 // console.log(pi);
 
-//40
+// 40
 
 // let currentYear = "2025";
 // currentYear = "2026";
 // console.log(currentYear);
 
-//41
+// 41
 
 // var oldStyle = 55;
 // let newStyle = 56;
 // console.log(oldStyle, newStyle);
 
-//42
+// 42
 
 // console.log(interest);
 // var interest = "red";
@@ -242,7 +242,7 @@
 // console.log(gram);
 // let gram = "green";
 
-//43
+// 43
 
 // const colors = ["redroom", "bluemoon", "greengrass"]; //array
 // console.log(colors);
@@ -250,9 +250,9 @@
 // const fans = ["exhaust", "ceiling", "table", 96, false];
 // console.log(colors[1] + " " + fans[2] + " fan");
 
-//44skipp
+// 44skipp
 
-//45
+// 45
 
 // const person = {
 //   name: "shubham",
@@ -264,13 +264,13 @@
 
 // console.log(person);
 
-//46skipp
+// 46skipp
 
-//47
+// 47
 
 // const power =
 
-//48
+// 48
 
 // let myVariable = 0;
 // let my_variable = 0;
@@ -278,7 +278,7 @@
 // let _myVariable = 0;
 // let $myVariable = 0;
 
-//49
+// 49
 
 // const profile = {
 //   firstName: "Shubham",
@@ -288,18 +288,18 @@
 // };
 // console.log(profile);
 
-//50
+// 50
 
 // let finalResult;
 // let isCheckedin = true;
 // let curTemperature;
 // let favMovies;
 
-//51 done orally
+// 51 done orally
 
-//52 done orally
+// 52 done orally
 
-//53
+// 53
 
 // const cart = {
 //   itemCount: 6,
@@ -309,9 +309,9 @@
 // };
 // console.log(cart);
 
-//54 skipp
+// 54 skipp
 
-//55
+// 55
 
 // const player = {
 //   name: "NhiHoParaHaikY",
@@ -322,15 +322,15 @@
 // };
 // console.log(player.name);
 
-//56 skipp
+// 56 skipp
 
-//57 skipp
+// 57 skipp
 
-//58 skipp
+// 58 skipp
 
-//59 skipp
+// 59 skipp
 
-//60 skipp
+// 60 skipp
 
 // 61
 
@@ -338,7 +338,7 @@
 // let age = 24;
 // console.log("My name is" + "fullName" + "and I am" + "age" + "year old");
 
-//62
+// 62
 
 // let length = 20;
 // let width = 40;
@@ -356,36 +356,36 @@
 // let average = (one + two + three) / 3;
 // console.log(average);
 
-//63 skipp
+// 63 skipp
 
-//64
+// 64
 
 // let age = 24;
 // let drivingAge = 18;
 // console.log(age < drivingAge);
 
-//65
+// 65
 
 // let quote = 'I am a\t"Genius"\nhello';
 // console.log(quote);
 
-//66
+// 66
 
 // let num = 568453;
 // let num1 = 465345;
 // let operation = num / num1;
 // console.log(operation);
 
-//67
+// 67
 
 // let valo = "hello" / 2;
 // let get = Math.sqrt(-1);
 // let wet = 0 / 0;
-//console.log(wet);
+// console.log(wet);
 
-//68 skipp
+// 68 skipp
 
-//69
+// 69
 
 // let hours = 18;
 // let minutes = 16;
@@ -393,7 +393,7 @@
 // let totalSeconds = (hours * 60 + minutes) * 60 + 30;
 // console.log(totalSeconds);
 
-//70
+// 70
 
 // const bioString = {
 //   name: "Shubham Pandey",
@@ -416,9 +416,9 @@
 //   `I am ${bioString.name} and I am ${bioString.age} years old , I live in ${bioString.city} and I am from ${bioString.country} `
 // );
 
-//71to 80done on laptop
+// 71to 80done on laptop
 
-//
+
 
 // const bank = {
 //   accountNumber: 478556535486,
@@ -427,7 +427,7 @@
 // };
 // console.log(bank.balance + 40000);
 
-//82
+// 82
 
 // const weatherApp = {
 //   temperature: 25,
@@ -439,7 +439,7 @@
 //   `Namashkar mai hu Shubham Pandey aaj hum baat karenge Mumbai ke Weather ke baare me , Jaisa ki aap dekh sakte hai screen pe aaj ka temperature hai ${weatherApp.temperature} ,agar hum humidity ki baat karein to vo hai ${weatherApp.humidity} iska matlab jo wind speed hoga mumbai me vo hoga ${weatherApp.windspeed} isse saaf pata chalta hai ki aaj ki aaj mausam kaafi ${weatherApp.conditions} hoga , aaj ke liye itna hi Shukriya `
 // );
 
-//83
+// 83
 
 // const student = {
 //   testScore: 86,
@@ -450,7 +450,7 @@
 //   student.testScore + student.assignmentScore + student.participationScore
 // );
 
-//84
+// 84
 
 // const movie = {
 //   title: "Avengers Infinity War",
@@ -463,9 +463,9 @@
 //   `The ${movie.title} is directed by ${movie.director}it was released in the year ${movie.year} and there are ${movie.genre} and also it has ${movie.rating} can you believe that`
 // );
 
-//85 to 90 skipp because same as 84
+// 85 to 90 skipp because same as 84
 
-//91
+// 91
 
 // let birthYear = 2001;
 // let currentYear = 2025;
@@ -473,9 +473,9 @@
 // let ageIndays = ageInyears * 365;
 // console.log(`${ageIndays} days`);
 
-//92 afterwards
+// 92 afterwards
 
-//93
+// 93
 
 // let principal = 36;
 // let rate = 0.15;
@@ -483,7 +483,7 @@
 // let simpleInterest = (principal * rate * time) / 100;
 // console.log(simpleInterest);
 
-//94 Afterwards
+// 94 Afterwards
 
 // let weight = 68;
 // let height = 1.75;
@@ -511,7 +511,7 @@
 //   console.log("Its a draw!");
 // }
 
-//Generates a random number from 0 to 100
+// Generates a random number from 0 to 100
 // let randomNumber = Math.floor(Math.random() * 100) + 1;
 
 // console.log("Here's The random number: " + randomNumber);
@@ -521,7 +521,7 @@
 //   console.log("Hi");
 // }
 
-//IF & ELSE Concept
+// IF & ELSE Concept
 
 // 1
 
@@ -562,13 +562,13 @@
 // }
 // console.log(age === 18, age >= 18, age < 21);
 
-//9
+// 9
 
 // console.log(10 > "10", "5" > "5", "10" > "2", 10 > "2");
-//String converted to number
-//String comparison
-//String comparison
-//String converted to number
+// String converted to number
+// String comparison
+// String comparison
+// String converted to number
 
 // 10
 // let password = "secret123";
@@ -582,12 +582,12 @@
 // 11
 
 // console.log(true == 1, false == 0, true === 1, false === 0);
-//true is converted to 1 → 1 == 1
-//false is converted to 0 → 0 == 0
-//Strict equality: boolean ≠ number
-//Strict equality: boolean ≠ number
+// true is converted to 1 → 1 == 1
+// false is converted to 0 → 0 == 0
+// Strict equality: boolean ≠ number
+// Strict equality: boolean ≠ number
 
-//12
+// 12
 
 // let price = 29.99;
 // if (price < 30) {
@@ -598,7 +598,7 @@
 //   console.log("price is atleast 25");
 // }
 
-//13
+// 13
 
 // console.log(NaN == NaN);
 
@@ -641,19 +641,19 @@
 // }
 
 
-//loop that prints numbers from 1 to 10
+// loop that prints numbers from 1 to 10
 
 // for (let i = 1; i <= 10; i++) {
 //   console.log(i);
 // }
 
-//loop that counts backwards from 10 to 1
+// loop that counts backwards from 10 to 1
 
 // for (let i = 10; i >= 1; i--) {
 //   console.log(i);
 // }
 
-//loop that prints only even number from 0 to 20
+// loop that prints only even number from 0 to 20
 
 // for (let i = 1; i <= 100; i++) {
 //   console.log("Happy Diwali");
@@ -1251,7 +1251,7 @@
 // }
 // console.log(basicMath(15, 3));
 
-//Level 2     Functions with Logic
+// Level 2     Functions with Logic
 
 // Ex 5   Age Checker
 
@@ -1321,4 +1321,107 @@
 // console.log(getLast(colors));
 
 // Ex 10 Array Sum
+
+// function sumArray(num) {
+//     let sum = 0;
+//     for (let i = 0; i < num.length; i++) {
+//         sum += num[i];
+//     }
+//     return sum;
+// }
+// let nums1 = [1, 2, 3, 4];
+// let nums2 = [10, 20, 30];
+// console.log(sumArray(nums1));
+// console.log(sumArray(nums2));
+
+
+// Ex 11 Find Maximum
+
+// function findMax(ram) {
+//     let max = ram[0];
+//     for (let i = 1; i < ram.length; i++) {
+//         if (ram[i] > max) {
+//             max = ram[i];
+//         }
+//     }
+//     return max;
+// }
+// let scores = [85, 92, 78, 96, 88];
+// console.log(findMax(scores));
+
+
+// Ex 12 Array Contains 
+
+// function contains(array, value) {
+//     for (let i = 0; i < array.length; i++) {
+//         if (array[i] === value) {
+//             return true;
+//         }
+//     }
+//     return false;
+// }
+// let animals = ["cat", "dog", "bird", "fish"];
+// console.log(contains(animals, "dog"));
+// console.log(contains(animals, "snake"));
+
+// Level Functions with Objects
+
+
+// Ex 13 Object Property Access
+
+// function getPersonAge(person) {
+//     return person.age;
+// }
+// let person1 = {
+//     fullName: "John Dave",
+//     age: 25,
+//     city: "NewYork"
+// };
+
+// let person2 = {
+//     fullName: "Emma Watson",
+//     age: 30,
+//     city: "London"
+// };
+
+
+// console.log(getPersonAge(person1));
+// console.log(getPersonAge(person2));
+
+
+ //Ex 14 Fullname 
+
+
+function getFullName(person) {
+    return person.firstName + " " + person.lastName;
+
+}
+let person1 = {
+    firstName: "Jane",
+    lastName: "Smith",
+    grade: 85
+};
+console.log(getFullName(person1));
+
+
+// Ex 15 Object Information
+
+// function introduceStudent(student) {
+//     return (`"Hi, I'm ${student.name} and I'm ${student.age} years old." `)
+// }
+// let person = {
+//     name: "Shubham ",
+//     age: 24,
+//     subject: "Math"
+// };
+// console.log(introduceStudent(person))
+
+
+// Ex 16 Updated Object
+
+// function celebrateBirthday (person) {
+    
+// }
+
+
 
