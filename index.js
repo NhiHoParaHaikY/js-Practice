@@ -1392,16 +1392,16 @@
  //Ex 14 Fullname 
 
 
-function getFullName(person) {
-    return person.firstName + " " + person.lastName;
+// function getFullName(person) {
+//     return person.firstName + " " + person.lastName;
 
-}
-let person1 = {
-    firstName: "Jane",
-    lastName: "Smith",
-    grade: 85
-};
-console.log(getFullName(person1));
+// }
+// let person1 = {
+//     firstName: "Jane",
+//     lastName: "Smith",
+//     grade: 85
+// };
+// console.log(getFullName(person1));
 
 
 // Ex 15 Object Information
