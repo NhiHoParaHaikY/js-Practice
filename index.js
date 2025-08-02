@@ -1350,7 +1350,7 @@
 // console.log(findMax(scores));
 
 
-// Ex 12 Array Contains 
+// Ex 12 Array Contains
 
 // function contains(array, value) {
 //     for (let i = 0; i < array.length; i++) {
@@ -1389,7 +1389,7 @@
 // console.log(getPersonAge(person2));
 
 
- //Ex 14 Fullname 
+//Ex 14 Fullname
 
 
 // function getFullName(person) {
@@ -1419,9 +1419,31 @@
 
 // Ex 16 Updated Object
 
-// function celebrateBirthday (person) {
-    
+// function celebrateBirthday(person) {
+//     return person.age += 1;
 // }
+// let person = {
+//     name: "Mike",
+//     age: 24
+// }
+// console.log("Before:", person.age);
+// celebrateBirthday(person);
+// console.log("After:", person.age);
 
+
+// Level 5 - Advanced Combinations
+
+// Ex 17 Array of objects - Find Person
+
+function findPersonByName(people, name) {
+    return people.find(person => person.name === name);
+}
+let people = [
+    { name: "Alice", age: 28 },
+    { name: "Bob", age: 34 },
+    { name: "Carol", age: 22 },
+
+];
+console.log(findPersonByName(people, "Bob"));
 
 
